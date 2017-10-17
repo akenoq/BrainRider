@@ -15,8 +15,8 @@ export default class RequestToHost {
      * @returns {string}
      */
     static baseUrl() {
-        // return  "https://brainrider.herokuapp.com/";
-        return  "http://localhost:5555/";
+        return  "https://brainrider.herokuapp.com/";
+        // return  "http://localhost:5555/";
     }
 
     /**
