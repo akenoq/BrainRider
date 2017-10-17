@@ -10,14 +10,15 @@ app.use(express.static(__dirname + "/static"));
 app.use(body.json());
 
 let dataArr = {};
-dataArr[1] = {
+
+/*dataArr[1] = {
     id : 1,
     data : "hello_1"
 };
 dataArr[2] = {
     id : 2,
     data : "hello_2"
-};
+};*/
 
 app.get('/', function(req, res) {
     res.sendfile("static/index.html");
