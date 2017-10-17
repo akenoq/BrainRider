@@ -6,6 +6,7 @@ export default class DataPage {
 
     constructor() {
         this.sendRequestForData();
+        this.addEventsOnButtons();
     }
 
     static pagePath() {
